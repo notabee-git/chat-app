@@ -19,7 +19,7 @@ const QRCode = styled('img')(
 {
     height:'400px',
     width:'400px',
-    margin: '50px 0 0 50px',
+    margin: '50px 0 0 0',
 }
 )
 
@@ -27,7 +27,7 @@ const Title = styled(Typography)`
     font-size: 40px;
     color: black;
     font-weight: 300;
-
+    font-family: 'Aclonica';
 `
 
 const dialogStyle = {
@@ -37,7 +37,8 @@ const dialogStyle = {
     maxWidth: '100%',
     maxHeight: '100%',
     boxShadow: 'none',
-    overflow: 'hidden'
+    overflow: 'hidden',
+    color: '#383838',
 }
 
 const StyledList = styled(List)`
@@ -73,10 +74,10 @@ const LoginDialog = () => {
         >
             <Component>
                 <Container>
-                    <Title>Using KGPChat</Title>
+                    <Title>Welcome to ChitChatZilla</Title>
                     <StyledList>
-                        <ListItem>Open KGPChat On your Computer</ListItem>
-                        <ListItem>Login to your KGPChat Account</ListItem>
+                        <ListItem>Open ChitChatZilla On your Computer</ListItem>
+                        <ListItem>Login to your ChitChatZilla Account</ListItem>
                     </StyledList>
                 </Container>
                 <Box style={{position:'relative'}} >

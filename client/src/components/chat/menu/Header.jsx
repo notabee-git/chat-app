@@ -9,7 +9,7 @@ import InfoDrawer from "../../drawer/InfoDrawer";
 const Component = styled(Box)`
     display:flex;
     height:44px;
-    background: aquamarine;
+    background: #404040;
     padding: 8px 16px;
     align-items: center;
 `

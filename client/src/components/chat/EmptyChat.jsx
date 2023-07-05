@@ -44,8 +44,8 @@ const EmptyChat = () => {
         <Component>
             <Container>
                 <Image src={emptyChatImage} alt="empty" />
-                <Title>KGPChat</Title>
-                <SubTitle>Chat using your very own KGPChat</SubTitle>
+                <Title>ChitChatZilla</Title>
+                <SubTitle>Chat using your very own ChitChatZilla</SubTitle>
                 <StyledDivider />
             </Container>
         </Component>

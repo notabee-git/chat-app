@@ -18,7 +18,7 @@ const RightComponent = styled(Box)`
     width : 73%;
     min-width: 300px;
     height:100%;
-    border-left: 1px solid gold;
+    border-left: 1px solid black;
 `
 
 const dialogStyle = {
@@ -29,7 +29,7 @@ const dialogStyle = {
     maxWidth: '100%',
     maxHeight: '100%',
     boxShadow: 'none',
-    overflow: 'hidden'
+    overflow: 'hidden',
 }
 
 
@@ -50,7 +50,6 @@ const ChatDialog = () => {
                 <Menu />
             </LeftComponent>
             <RightComponent>
-                
                 { Object.keys(person).length ? <ChatBox /> : <EmptyChat />}
             </RightComponent>
         </Component>

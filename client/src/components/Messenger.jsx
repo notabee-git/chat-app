@@ -6,18 +6,18 @@ import { AccountContext } from '../context/AccountProvider';
 
 const Component = styled(Box)`
     height : 110vh;
-    background-color : aquamarine;
+    background-color : grey;
 
 `
 const Header = styled(AppBar)`
     height : 150px;
-    background-color : #FFC95F;
+    background-color : black;
     box-shadow : none;
 `
 
 const LoginHeader = styled(AppBar)`
     height : 300px;
-    background-color : #FFC95F;
+    background-color : black;
     box-shadow : none;
 `
 
